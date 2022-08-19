@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>About Me</title>
 
-        <link href = "./style.css" type = "text/css" rel="stylesheet">
-        <!-- Style Tag-->
-        <style>
-            p {
-                color: brown;
-                font-size: 20px; 
-            }
-        </style>
-    </head>
-    <body>
-        <h1>This is heading 1</h1>
-        <h2>This is heading 2</h2>
-        <h3>This is heading 3</h3>
-        <h4>This is heading 4</h4>
-        <h5>This is heading 5</h5>
-        <h6>This is heading 6</h6>
-        
-        <p>This is a paragraph.</p>
+<head>
+    <title>About Me</title>
 
-        <ol>
-            <li>li in ol 1</li>>
-            <li>li in ol 2</li>>
-            <li>li in ol 3</li>>
-        </ol>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <!-- Adjacent Sibling Selector (a + b) -->
+    <!-- Attribute Selector (a = b) -->
+    <!-- Pseudo-class Selector (a:b) -->
 
+</head>
+
+<body style="background-color: lightpink;">
+
+    <h1 style="text-align: center;">This is my page using HTML & CSS</h1>
+
+
+    <form style="text-align: right;" action="https://google.com/search" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Google Search">
+    </form>
+
+    <div>
+        <b>
+            <h2>Introduction</h2>
+        </b>
+        <p>This web page is for my Software Engineering class(CN331).</p>
+    </div>
+
+    <div>
+        <b>
+            <h2>Assignment 01</h2>
+            <p>Introduce myself</p>
+        </b>
+    </div>
+
+    <div>
+        <p>
+            The first assignment is about introduce myself. Therefore, I have an idea
+            to make a resume in spite of normal introduce pages.
+        </p>
+    </div>
+
+    <center>
+        <img src="profilePic.jpg" width="390" height="550">
+        <p style="color : green">Name: Supakrit Nithikethkul<br>
+            My nickname: Krit<br>
+            My Student ID: 6410615139</p>
+    </center>
+    <div>
+        <p>My contact</p>
         <ul>
-            <li>li in ol 1</li>>
-            <li>li in ol 2</li>>
-            <li>li in ol 3</li>>
+            <li>Faculty of Engineering,Thammasat University</li>
+            <li><a href="https://6410615139.github.io/">https://6410615139.github.io</a></li>
+            <li>6410615139@student.tu.ac.th</li>
         </ul>
+    </div>
+    <div>
+        <p>My interest</p>
+        <ol>
+            <li>Food</li>
+            <li>Sleep</li>
+            <li>Travel</li>
+        </ol>
+    </div>
 
-        <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt="Network Ifel Image" width="104" height="142">
-        <br>
-        <a href="https://www.w3schools.com">This is a link</a>
-
+    <div>
+        <p>Activity</p>
         <table>
             <tr>
-                <th>Name</th>
-                <th>Surname</th>
+                <th>Year</th>
+                <th>Event</th>
+                <th>Details</th>
+
             </tr>
             <tr>
-                <td>Supakrit</td>
-                <td>Nithikethkul</td>
+                <td>1st</td>
+                <td>Freshy Game</td>
+                <td>Volleyball player</td>
+            </tr>
+            <tr>
+                <td>2nd</td>
+                <td class="red">Sleep and do nothing</td>
+                <td>
+                    <details>Actualy, its good!</details>
+                </td>
             </tr>
         </table>
-        <form action = "https://google.com/search" method = "get">
-            <input type = "text" name = "q">
-            <input type = "submit" value = "Google Search">
-        </form>
+    </div>
+    <p id="heading">Thank you for visiting my pages</p>
+    <p class="red">last update 19/08/2565</p>
+</body>
 
-        <!-- Cascading Style Sheets-->
-        <!-- Inline Style-->
-        <p>This is a paragraph.</p>
-        <p style = "color : red;">This is a paragraph.</p>
-        <p style = "color : blue; font-size: 20px;">This is a paragraph.</p>
-        
-        <!-- Common Css Properyies
-        color
-        text-align
-        width, height
-        margin, padding
-        font-family, font-size, font-weight
-        border
-        ...
-        -->
-
-    </body>
 </html>

@@ -1,4 +1,58 @@
-p {
-    color: red;
-    font-size: 20px;
+div p {
+    color: lightslategray;
 }
+
+div>p {
+    color: rebeccapurple;
+}
+
+p {
+    color: darkred;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: violet
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue
+}
+
+.red {
+    color: red
+}
+
+p.red {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+table, th, td {
+    border: 1px solid royalblue;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: skyblue;
+  }
