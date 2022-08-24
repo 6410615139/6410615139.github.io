@@ -13,7 +13,7 @@ My nickname: *Krit*
 My Student ID: *6410615139*
 
 ### My Contact
-- Faculty of Engineering,==Thammasat University==
+- Faculty of Engineering,<mark>Thammasat University</mark>
 - **visite my page at** <https://6410615139.github.io/>
 - **My email** 6410615139@student.tu.ac.th
 
@@ -30,7 +30,7 @@ My Student ID: *6410615139*
 >>|   Year  |    Event             |    Details    |
 >>| :---    |        :----:        |          ---: |
 >>| 1st     | Freshy Game          | Volleyball player   |
->>| 2nd     | <mark>Sleep and do nothing</mark> | And more      |
+>>| 2nd     | Sleep and do nothing | And more      |
 
 # Thank You For Visiting My Pages
 
