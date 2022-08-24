@@ -4,15 +4,16 @@ __Assignment01 CN331__
 **Describe Myself**
 ------------------
 
-![profilePic, The handsome guy](/profilepic.jpg)
+![profilePic, The handsome guy](/profilePic.jpg)
+
 Name: *Supakrit Nithikethkul*
 My nickname: *Krit*
 My Student ID: *6410615139*
 
 ### My Contact
 - Faculty of Engineering,Thammasat University
-- **visite my page at**<https://6410615139.github.io/>
-- **My email**6410615139@student.tu.ac.th
+- **visite my page at** <https://6410615139.github.io/>
+- **My email** 6410615139@student.tu.ac.th
 
 ### My interest
 1.Food
