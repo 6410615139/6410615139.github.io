@@ -7,9 +7,7 @@ __Assignment01 CN331__
 ![profilePic, The handsome guy](/profilePic.jpg)
 
 Name: *Supakrit Nithikethkul*
-
 My nickname: *Krit*
-
 My Student ID: *6410615139*
 
 ### My Contact
@@ -30,7 +28,7 @@ My Student ID: *6410615139*
 >>|   Year  |    Event             |    Details    |
 >>| :---    |        :----:        |          ---: |
 >>| 1st     | Freshy Game          | Volleyball player   |
->>| 2nd     | Sleep and ==do nothing== | And more      |
+>>| 2nd     | Sleep and ==do nothing==. | And more      |
 
 # Thank You For Visiting My Pages
 
