@@ -6,11 +6,9 @@ __Assignment01 CN331__
 
 ![profilePic, The handsome guy](/profilePic.jpg)
 
-Name: *Supakrit Nithikethkul*
-
-My nickname: *Krit*
-
-My Student ID: *6410615139*
+- Name: *Supakrit Nithikethkul*
+    - My nickname: *Krit*
+- My Student ID: *6410615139*
 
 ### My Contact
 - Faculty of Engineering, Thammasat University
@@ -19,12 +17,12 @@ My Student ID: *6410615139*
 
 ### My interest in order
 
-1.Food
-    1. pizza
-    2. noodle
-    3. BBQ [Pork](/pigicon.jpg)
-2.Sleep
-3.Travel
+1. Food
+    - pizza
+    - noodle
+    - BBQ [Pork](/pigicon.jpg)
+2. Sleep
+3. Travel
 
 >Activity
 >
