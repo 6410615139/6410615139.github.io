@@ -1,99 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>About Me</title>
-
-    <link href="./style.css" type="text/css" rel="stylesheet">
-    <link rel="icon" href="pigicon.jpg" type="image/icon type">
-    <!-- Adjacent Sibling Selector (a + b) -->
-    <!-- Attribute Selector (a = b) -->
-    <!-- Pseudo-class Selector (a:b) -->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body style="background-color: lightpink;">
-
-    <div class="header">
-        <img src="pigicon.jpg" alt="logo" />
-        <h1>This is my page using HTML & CSS</h1>
-    </div>
-
-    <br>
-    <form style="text-align: right;" action="https://google.com/search" method="get">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
-
-    <div>
-        <b>
-            <h2>Introduction</h2>
-        </b>
-        <p>This web page is for my Software Engineering class(CN331).</p>
-    </div>
-
-    <div>
-        <b>
-            <h2>Assignment 01</h2>
-            <p>Introduce myself</p>
-        </b>
-    </div>
-
-    <div>
-        <p>
-            The first assignment is about introduce myself. Therefore, I have an idea
-            to make a resume in spite of normal introduce pages.
+<body>
+    <div class="container">
+        <h1 class="love-title">To My Dearest Love 💕</h1>
+        <p class="message">
+            You are the light of my life, my reason to smile, and my forever happiness. 
+            Thank you for making every day special. I love you more than words can say.
         </p>
+        <button class="heart-button" onclick="showHearts()">Click for More Love</button>
+        <div id="hearts-container"></div>
     </div>
-
-    <center>
-        <img src="profilePic.jpg" width="390" height="550">
-        <p style="color : green">Name: Supakrit Nithikethkul<br>
-            My nickname: Krit<br>
-            My Student ID: 6410615139</p>
-    </center>
-    <div>
-        <p>My contact</p>
-        <ul>
-            <li>Faculty of Engineering,Thammasat University</li>
-            <li><a href="https://6410615139.github.io/">https://6410615139.github.io</a></li>
-            <li>6410615139@student.tu.ac.th</li>
-        </ul>
-    </div>
-    <div>
-        <p>My interest</p>
-        <ol>
-            <li>Food</li>
-            <li>Sleep</li>
-            <li>Travel</li>
-        </ol>
-    </div>
-
-    <div>
-        <p>Activity</p>
-        <table>
-            <tr>
-                <th>Year</th>
-                <th>Event</th>
-                <th>Details</th>
-
-            </tr>
-            <tr>
-                <td>1st</td>
-                <td>Freshy Game</td>
-                <td>Volleyball player</td>
-            </tr>
-            <tr>
-                <td>2nd</td>
-                <td class="red">Sleep and do nothing</td>
-                <td>
-                    <details>Actualy, its good!</details>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <p id="heading">Thank you for visiting my pages</p>
-    <p class="red">last update 19/08/2565</p>
+    <script src="script.js"></script>
 </body>
-
 </html>
