@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For My Love ❤️</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgive or Not</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    button {
+      font-size: 16px;
+      padding: 12px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+    }
+
+    #forgive {
+      background-color: #4CAF50;
+    }
+
+    #dontForgive {
+      background-color: #f44336;
+      position: relative;
+    }
+
+    #dontForgive:active {
+      background-color: #d32f2f;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="love-title">To My Dearest Love 💕</h1>
-        <p class="message">
-            You are the light of my life, my reason to smile, and my forever happiness. 
-            Thank you for making every day special. I love you more than words can say.
-        </p>
-        <button class="heart-button" onclick="showHearts()">Click for More Love</button>
-        <div id="hearts-container"></div>
-    </div>
-    <script src="script.js"></script>
+  <h1>Will You Forgive Me?</h1>
+  <button id="forgive">Forgive</button>
+  <button id="dontForgive">Don't Forgive</button>
+
+  <script src="/static/script.js"></script>
 </body>
 </html>
